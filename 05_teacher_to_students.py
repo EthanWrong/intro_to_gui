@@ -21,7 +21,7 @@ def main():
         f"Enter the number of teachers at {school}.\n"
         f"Must be between 1 and 120", "Actual # of "
                                       "teachers",
-        lowerbound=1, upperbound=120)2
+        lowerbound=1, upperbound=120)
 
     if teachers == classes:
         easygui.msgbox(f"You have the correct number of teachers.\n\n"
