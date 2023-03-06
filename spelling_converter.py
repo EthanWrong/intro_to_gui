@@ -20,7 +20,7 @@ def main():
     for i in SPELLINGS:
         if i in us_output:
             us_output = us_output.replace(i, SPELLINGS[i])
-            
+
     if us_output == nz_input:
         msgbox("No change in spelling", "Output")
     else:
