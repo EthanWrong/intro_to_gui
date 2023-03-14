@@ -1,3 +1,5 @@
+"""Non-functioning overcomplicated program"""
+
 import random
 from easygui import *
 
